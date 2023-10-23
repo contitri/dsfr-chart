@@ -277,7 +277,8 @@ export default {
           pointHoverBackgroundColor: self.colorHover[j],
           pointHoverBorderColor: self.colorHover[j],
           showLine: self.showline,
-          borderWidth: 2
+          borderWidth: 2,
+          lineTension: 0
         })
       })
     },
